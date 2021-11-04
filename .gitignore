@@ -1,3 +1,5 @@
 .idea/
 
 spaces/
+
+__pycache__
