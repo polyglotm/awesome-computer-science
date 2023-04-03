@@ -3,7 +3,7 @@
 >
 > - [Mathematical induction - wikipedia](https://en.wikipedia.org/wiki/Mathematical_induction)
 
-## Explanations
+## Explanations - fibonacci
 
 induction step is logical estimation technique. 
 
@@ -40,6 +40,21 @@ function fibonacciBasic(n) {
   return fibonacciBasic(n - 1) + fibonacciBasic(n - 2);
 }
 ```
+
+
+<br> <br> <br> <br>
+
+## Explaination - tower of hanoi
+
+1 -> 1
+
+2 -> 3
+
+3 -> 7
+
+http://towersofhanoi.info/Animate.aspx
+
+2^n-1
 
 
 ### References

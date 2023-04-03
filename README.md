@@ -8,6 +8,6 @@ It will handle datastructures, algorithms and more
 
 - [induction.md](./algorithms/induction/induction.md)
 
-# [Computer Science](./computer-science/computer-science.md)
+# [Computer Science](computer_science/computer-science.md)
 
-- [mutex.md](./computer-science/mutex/mutex.md)
+- [mutex.md](computer_science/mutex/mutex.md)

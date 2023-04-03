@@ -10,6 +10,9 @@ pytest = "*"
 pytest = "*"
 pytest-watch = "*"
 promise = "*"
+pylint = "*"
+pdf2image = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.9"

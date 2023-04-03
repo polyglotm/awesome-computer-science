@@ -4,7 +4,7 @@ from promise import Promise
 
 
 def some(resolve, reject):
-    time.sleep(5)
+    time.sleep(2)
     resolve('RESOLVED!')
 
 
@@ -21,5 +21,5 @@ async def some2():
     print('ok')
 
 
-some2()
-print('-check-point-3')
+asyncio.run(some2())
+print('-check-point-2')
