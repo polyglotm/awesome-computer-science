@@ -5,3 +5,6 @@ spaces/
 __pycache__
 
 node_modules/
+
+# for CPP
+cmake-build-debug/
