@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/subsets/
+// NOTE: subsets without duplicate element
 function subsets(nums) {
     const result = [];
     const backtrack = (i, path) => {
@@ -16,5 +17,15 @@ function subsets(nums) {
     return result;
 }
 ;
-let arr = [1, 2, 3];
+const arr = [1, 2, 3];
 console.log(subsets(arr));
+const result = [
+    [1, 2, 3],
+    [1, 2],
+    [1, 3],
+    [1],
+    [2, 3],
+    [2],
+    [3],
+    []
+];

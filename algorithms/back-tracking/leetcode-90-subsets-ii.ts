@@ -1,6 +1,7 @@
 // https://leetcode.com/problems/subsets-ii/description/
 
 
+// NOTE: subset with duplicate elements
 function subsetsWithDup(nums: number[]): number[][] {
   const result = [];
   const sets = new Set();
@@ -29,17 +30,20 @@ function subsetsWithDup(nums: number[]): number[][] {
 };
 
 
-let arr = [4, 4, 4, 1, 4];
+const arr = [4, 4, 4, 1, 4];
 console.log(subsetsWithDup(arr));
 
-// [[], [1], [1, 4], [1, 4, 4], [1, 4, 4, 4], [1, 4, 4, 4, 4], [4], [4, 4], [4, 4, 4], [4, 4, 4, 4]]
-//
-//   [
-//   [4, 4, 4, 1, 4], [4, 4, 4, 1],
-//     [4, 4, 4, 4], [4, 4, 4],
-//     [4, 4, 1, 4], [4, 4, 1],
-//     [4, 4], [4, 1, 4],
-//     [4, 1], [4],
-//     [1, 4], [1],
-//     []
-//   ];
+const result = [
+  [1, 4, 4, 4, 4],
+  [1, 4, 4, 4],
+  [4, 4, 4, 4],
+  [4, 4, 4],
+  [1, 4, 4],
+  [4, 4],
+  [1, 4],
+  [4],
+  [1],
+  []
+];
+
+

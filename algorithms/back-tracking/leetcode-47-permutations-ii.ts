@@ -1,3 +1,4 @@
+// NOTE: permutation with duplicate elements, but only return unique permutations
 function permuteUnique(items: number[]): number[][] {
   const result = [];
   const set = new Set();
@@ -27,8 +28,21 @@ function permuteUnique(items: number[]): number[][] {
 
 let nums = [1, 1, 2];
 console.log(permuteUnique(nums));
-// Output: [[1,1,2], [1,2,1], [2,1,1]]
+let result = [
+  [1, 1, 2],
+  [1, 2, 1],
+  [2, 1, 1]
+];
+
+console.log(result);
 
 nums = [1, 2, 3];
 console.log(permuteUnique(nums));
-// Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+result = [
+  [1, 2, 3],
+  [1, 3, 2],
+  [2, 1, 3],
+  [2, 3, 1],
+  [3, 1, 2],
+  [3, 2, 1]
+];

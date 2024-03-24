@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/coin-change/description/?envType=study-plan-v2&envId=dynamic-programming
 
 
-function coinChange(coins: number[], amount: number): number {
+function coinChangeBottomUp(coins: number[], amount: number): number {
   coins.sort((a, b) => a - b);
   const dp = [];
 
